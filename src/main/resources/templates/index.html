@@ -1,0 +1,8 @@
+<html>
+<body>
+	<h3>Overview</h3>
+	<p th:each="i : ${#numbers.sequence(1, links)}">
+		<a th:href="@{/{id}(id = ${i})}" th:text="|Details ${i}|"></a>
+	</p>
+</body>
+</html>

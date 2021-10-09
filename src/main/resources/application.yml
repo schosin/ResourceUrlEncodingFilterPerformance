@@ -1,0 +1,5 @@
+management:
+  server:
+    base-path: /actuator
+    port: 8080
+  endpoints.web.exposure.include: '*'
